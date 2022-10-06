@@ -10,14 +10,29 @@
 
 
 body {
-  background-color: rgb(25, 25, 66);
+  background:linear-gradient(-45deg,rgb(3, 3, 70),rgb(51, 3, 91),rgb(22, 2, 83)) no-repeat;
+background-size: 300% 300%;
   font-family: Arial, Helvetica, sans-serif;
   width: 90%;
   height: 100%;
   margin: auto;
+  height: 100vh;
+ 
+  animation:gradient 5s ease infinite ;
 
+}
 
+@keyframes gradient{
 
+  0%{
+    background-position:0 50% ;
+  }
+50%{
+  background-position: 50% 100%;
+}
+100%{
+  background-position: 0 50%;
+}
 }
 
 header {
@@ -27,7 +42,7 @@ header {
 
   display: flex;
   justify-content: space-between;
-  background-color: rgb(25, 25, 66);
+ 
 
 
 }
@@ -96,7 +111,7 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
- 
+
 
 
   width: 30vw;
@@ -193,7 +208,7 @@ footer {
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
 
-  
+
 }
 
 .button-a {
@@ -217,7 +232,7 @@ footer {
   width: 17vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
- 
+
 }
 
 .button-b {
@@ -240,7 +255,7 @@ footer {
   width: 17vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
- 
+
 }
 
 .button-c {
@@ -255,21 +270,22 @@ footer {
 
 }
 
-.button-c{
+.button-c {}
+
+main div:hover {
+  transform: scale(1.1);
 
 }
 
- main div:hover{
-  transform: scale(1.1);
- }
+main div {
+  transition: transform .3s;
+  transition: ;
+}
 
- main div{
-  transition:transform .3s ;
- }
-
- footer div:hover{
+footer div:hover {
   transform: scale(1.1);
- }
- footer div{
-  transition:transform .3s ;
- }
+}
+
+footer div {
+  transition: transform .3s;
+}
