@@ -106,6 +106,9 @@ main {
 
 }
 
+a{
+  text-decoration: none;
+}
 .box-a {
   display: flex;
   justify-content: center;
