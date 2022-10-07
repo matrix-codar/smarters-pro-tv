@@ -10,29 +10,31 @@
 
 
 body {
-  background:linear-gradient(-45deg,rgb(2, 2, 39),rgb(54, 3, 104),rgb(15, 2, 58)) no-repeat;
-background-size: 300% 300%;
+  background: linear-gradient(-45deg, rgb(2, 2, 39), rgb(54, 3, 104), rgb(15, 2, 58)) no-repeat;
+  background-size: 300% 300%;
   font-family: Arial, Helvetica, sans-serif;
   width: 90%;
   height: 100%;
   margin: auto;
-  height: 100vw;
- 
-  animation:gradient 5s ease infinite ;
+  height: 100vh;
+
+  animation: gradient 5s ease infinite;
 
 }
 
-@keyframes gradient{
+@keyframes gradient {
 
-  0%{
-    background-position:0 50% ;
+  0% {
+    background-position: 0 50%;
   }
-50%{
-  background-position: 50% 100%;
-}
-100%{
-  background-position: 0 50%;
-}
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 header {
@@ -50,10 +52,10 @@ header {
 
 .conteiner-left {
   display: flex;
-align-items: flex-end;
+  align-items: flex-end;
   width: 24vw;
 
-border-radius: 1vw;
+  border-radius: 1vw;
 }
 
 .logo img {
@@ -65,10 +67,10 @@ border-radius: 1vw;
 .titulo {
   font-size: 3vw;
   display: flex;
-align-items: baseline;
+  align-items: baseline;
   margin-left: 0.5vw;
-  margin:1vw ;
-   
+  margin: 1vw;
+
 }
 
 
@@ -93,7 +95,7 @@ h1 {
   align-items: center;
   width: 75%;
   gap: 30vw;
-  
+
 
 }
 
@@ -110,13 +112,14 @@ main {
   color: rgb(242, 239, 245);
   display: flex;
   margin-left: 2vw;
-  margin-top:3vw ;
+  margin-top: 3vw;
 
 }
 
-a{
+a {
   text-decoration: none;
 }
+
 .box-a {
   display: flex;
   justify-content: center;
