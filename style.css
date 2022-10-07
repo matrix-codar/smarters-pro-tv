@@ -10,13 +10,13 @@
 
 
 body {
-  background:linear-gradient(-45deg,rgb(3, 3, 70),rgb(51, 3, 91),rgb(22, 2, 83)) no-repeat;
+  background:linear-gradient(-45deg,rgb(2, 2, 39),rgb(54, 3, 104),rgb(15, 2, 58)) no-repeat;
 background-size: 300% 300%;
   font-family: Arial, Helvetica, sans-serif;
   width: 90%;
   height: 100%;
   margin: auto;
-  height: 100vh;
+  height: 100vw;
  
   animation:gradient 5s ease infinite ;
 
@@ -42,28 +42,33 @@ header {
 
   display: flex;
   justify-content: space-between;
- 
+
+
 
 
 }
 
 .conteiner-left {
   display: flex;
-  align-items: center;
-  width: 20vw;
+align-items: flex-end;
+  width: 24vw;
 
+border-radius: 1vw;
 }
 
 .logo img {
   width: 7vw;
+
 
 }
 
 .titulo {
   font-size: 3vw;
   display: flex;
-  align-items: baseline;
+align-items: baseline;
   margin-left: 0.5vw;
+  margin:1vw ;
+   
 }
 
 
@@ -72,6 +77,7 @@ h1 {
   color: rgb(232, 221, 243);
   font-size: 2vw;
   justify-content: space-around;
+
 }
 
 .pro {
@@ -86,7 +92,8 @@ h1 {
   display: flex;
   align-items: center;
   width: 75%;
-  gap: 35vw;
+  gap: 30vw;
+  
 
 }
 
@@ -103,6 +110,7 @@ main {
   color: rgb(242, 239, 245);
   display: flex;
   margin-left: 2vw;
+  margin-top:3vw ;
 
 }
 
@@ -119,7 +127,7 @@ a{
 
   width: 30vw;
   height: 29vw;
-  border: solid rgb(189, 234, 247) 0.3vw;
+  border: solid rgb(203, 189, 247) 0.3vw;
 
   background: rgb(72, 241, 221);
   background: linear-gradient(180deg, rgba(72, 241, 221, 1) 0%, rgb(2, 131, 223) 37%);
@@ -152,7 +160,7 @@ a{
   background: rgb(255, 0, 203);
   background: linear-gradient(270deg, rgba(255, 0, 203, 1) 0%, rgba(247, 177, 0, 1) 100%);
   border-radius: 1vw;
-
+  border: solid rgb(189, 234, 247) 0.3vw;
 }
 
 .img-b {
@@ -178,7 +186,7 @@ a{
   background: rgb(255, 0, 203);
   background: linear-gradient(58deg, rgba(255, 0, 203, 1) 0%, rgba(26, 192, 248, 1) 100%);
   border-radius: 1vw;
-
+  border: solid rgb(189, 234, 247) 0.3vw;
 }
 
 
@@ -207,7 +215,7 @@ footer {
 
   align-items: center;
 
-  width: 17vw;
+  width: 14vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
 
@@ -232,7 +240,7 @@ footer {
   gap: 0.5vw;
   align-items: center;
 
-  width: 17vw;
+  width: 14vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
 
@@ -255,7 +263,7 @@ footer {
   gap: 0.5vw;
   align-items: center;
 
-  width: 17vw;
+  width: 14vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
 
