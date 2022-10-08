@@ -10,15 +10,17 @@
 
 
 body {
-  background: linear-gradient(-45deg, rgb(2, 2, 39), rgb(54, 3, 104), rgb(15, 2, 58)) no-repeat;
+  background: linear-gradient(-45deg, rgb(2, 2, 39), rgb(105, 7, 203), rgb(15, 2, 58)) no-repeat;
   background-size: 300% 300%;
   font-family: Arial, Helvetica, sans-serif;
-  width: 90%;
-  height: 100%;
+  width: 90vw;
+  height: 100vh;
   margin: auto;
-  height: 100vw;
+
 
   animation: gradient 5s ease infinite;
+  display: flex;
+  align-items: center;
 
 }
 
@@ -38,12 +40,14 @@ body {
 }
 
 header {
-  margin-top: 2vw;
+
   margin-left: 2vw;
   margin-right: 2.vw;
 
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2%;
+  align-items: flex-end
 
 
 
@@ -73,6 +77,7 @@ header {
 
 }
 
+.titulo h1 {}
 
 h1 {
   display: flex;
@@ -112,7 +117,9 @@ main {
   color: rgb(242, 239, 245);
   display: flex;
   margin-left: 2vw;
-  margin-top: 3vw;
+  /* margin-top: 3vw; */
+
+
 
 }
 
