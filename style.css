@@ -16,7 +16,7 @@ body {
   width: 90%;
   height: 100%;
   margin: auto;
-  height: 100vh;
+  height: 100vw;
 
   animation: gradient 5s ease infinite;
 
