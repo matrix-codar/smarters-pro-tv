@@ -137,13 +137,17 @@ a {
 
   width: 30vw;
   height: 29vw;
-  border: solid rgb(203, 189, 247) 0.3vw;
+
 
   background: rgb(72, 241, 221);
   background: linear-gradient(180deg, rgba(72, 241, 221, 1) 0%, rgb(2, 131, 223) 37%);
 
   border-radius: 1vw;
 
+}
+
+.box-a:hover{
+  border: solid rgb(240, 240, 244) 0.3vw; 
 }
 
 .img-a {
@@ -170,7 +174,11 @@ a {
   background: rgb(255, 0, 203);
   background: linear-gradient(270deg, rgba(255, 0, 203, 1) 0%, rgba(247, 177, 0, 1) 100%);
   border-radius: 1vw;
-  border: solid rgb(189, 234, 247) 0.3vw;
+
+}
+
+.box-b:hover{
+  border: solid rgb(240, 240, 244) 0.3vw; 
 }
 
 .img-b {
@@ -196,7 +204,11 @@ a {
   background: rgb(255, 0, 203);
   background: linear-gradient(58deg, rgba(255, 0, 203, 1) 0%, rgba(26, 192, 248, 1) 100%);
   border-radius: 1vw;
-  border: solid rgb(189, 234, 247) 0.3vw;
+ 
+}
+
+.box-c:hover{
+  border: solid rgb(240, 240, 244) 0.3vw; 
 }
 
 
@@ -222,14 +234,14 @@ footer {
 
 .caixa-a {
   display: flex;
-
   align-items: center;
-
   width: 14vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
+}
 
-
+.caixa-a:hover{
+  border: solid rgb(240, 240, 244) 0.3vw; 
 }
 
 .button-a {
@@ -237,6 +249,8 @@ footer {
   height: 1.5vw;
   padding: 10px;
 
+
+ 
 
 }
 
@@ -253,8 +267,11 @@ footer {
   width: 14vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
-
 }
+.caixa-b:hover{
+  border: solid rgb(240, 240, 244) 0.3vw; 
+}
+
 
 .button-b {
   width: 1.5vw;
@@ -272,12 +289,15 @@ footer {
   display: flex;
   gap: 0.5vw;
   align-items: center;
-
   width: 14vw;
   border-radius: 1vw;
   background-color: rgb(85, 179, 147);
-
 }
+
+.caixa-c:hover{
+  border: solid rgb(240, 240, 244) 0.3vw; 
+}
+
 
 .button-c {
   width: 1.5vw;
@@ -299,8 +319,8 @@ main div:hover {
 }
 
 main div {
-  transition: transform .3s;
-  transition: ;
+  transition: transform .5s;
+ 
 }
 
 footer div:hover {
@@ -308,5 +328,5 @@ footer div:hover {
 }
 
 footer div {
-  transition: transform .3s;
+  transition: transform .5s;
 }
