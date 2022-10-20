@@ -20,7 +20,7 @@ body {
 
   animation: gradient 5s ease infinite;
   display: flex;
-  align-items: center;
+
 
 }
 
@@ -46,7 +46,7 @@ header {
 
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   align-items: flex-end
 
 
